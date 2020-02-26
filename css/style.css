@@ -296,7 +296,7 @@ ol {
 }
 
 .main-menu li a:hover {
-	color: #30caa0;
+	color: #ed3237;
 }
 
 /*------------------
@@ -418,7 +418,7 @@ ol {
 }
 
 .propertie-info p i {
-	color: #30caa0;
+	color: #ed3237;
 	margin-right: 5px;
 }
 
@@ -515,9 +515,14 @@ ol {
 	font-weight: 600;
 	background: #fff;
 	text-align: center;
+    margin-top: 10px;
 	padding: 13px;
-	background: #30caa0;
+	background-color: #303030;
 	color: #fff;
+}
+
+.room-price {
+    margin-top: 10px;
 }
 
 .feature-pic {
@@ -548,7 +553,7 @@ ol {
 }
 
 .feature-title p i {
-	color: #30caa0;
+	color: #ed3237;
 }
 
 .room-info-warp {
@@ -567,7 +572,7 @@ ol {
 }
 
 .room-info p i {
-	color: #30caa0;
+	color: #ed3237;
 	margin-right: 10px;
 }
 
@@ -660,11 +665,11 @@ ol {
 	/* Old browsers */
 	/* FF3.6-15 */
 	/* Chrome10-25,Safari5.1-6 */
-	background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(70%, #30caa0));
-	background: -o-linear-gradient(top, black 0%, #30caa0 70%);
-	background: linear-gradient(to bottom, black 0%, #30caa0 70%);
+	background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(70%, #ed3237));
+	background: -o-linear-gradient(top, black 0%, #ed3237 70%);
+	background: linear-gradient(to bottom, black 0%, #ed3237 70%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#30caa0', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ed3237', GradientType=0);
 	/* IE6-9 */
 	opacity: 0;
 	-webkit-transition: all 0.4s;
@@ -759,7 +764,7 @@ ol {
 }
 
 .review-slider .owl-dots .owl-dot.active {
-	background: #30caa0;
+	background: #ed3237;
 }
 
 /*------------------
@@ -794,7 +799,7 @@ ol {
 }
 
 .blog-item .blog-meta span i {
-	color: #30caa0;
+	color: #ed3237;
 	margin-right: 5px;
 }
 
@@ -808,7 +813,7 @@ ol {
 }
 
 .clients-slider {
-	background: #30caa0;
+	background: #ed3237;
 	padding: 27px 40px;
 	border-radius: 3px;
 }
@@ -901,7 +906,7 @@ ol {
 	position: absolute;
 	left: -20px;
 	top: 0;
-	color: #30caa0;
+	color: #ed3237;
 	opacity: 0;
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
@@ -933,7 +938,7 @@ ol {
 	width: 40px;
 	top: 0;
 	right: 0;
-	background: #30caa0;
+	background: #ed3237;
 	color: #fff;
 	border: none;
 }
@@ -1015,7 +1020,7 @@ ol {
 }
 
 .page-top-section.single-blog a i {
-	color: #30caa0;
+	color: #ed3237;
 	margin-right: 10px;
 }
 
@@ -1068,8 +1073,8 @@ ol {
 .site-pagination span,
 .site-pagination span:hover,
 .site-pagination a:hover {
-	color: #30caa0;
-	border-color: #30caa0;
+	color: grey;
+	border-color: grey;
 }
 
 .site-pagination a:last-child {
@@ -1128,7 +1133,7 @@ ol {
 
 .sl-thumb-slider .owl-prev:hover,
 .sl-thumb-slider .owl-next:hover {
-	color: #30caa0;
+	color: #ed3237;
 }
 
 .sl-thumb-slider .owl-prev {
@@ -1158,7 +1163,7 @@ ol {
 }
 
 .single-list-content p i {
-	color: #30caa0;
+	color: #ed3237;
 	margin-right: 5px;
 }
 
@@ -1168,7 +1173,7 @@ ol {
 	font-weight: 600;
 	text-align: center;
 	padding: 9px;
-	background: #30caa0;
+	background: #ed3237;
 	color: #fff;
 	min-width: 200px;
 	border-radius: 3px;
@@ -1231,9 +1236,9 @@ ol {
 }
 
 .plan-accordion .panel-link.active {
-	background: #30caa0;
+	background: #ed3237;
 	color: #fff;
-	border: 1px solid #30caa0;
+	border: 1px solid #ed3237;
 }
 
 .plan-accordion .panel-link.active i {
@@ -1334,7 +1339,7 @@ ol {
 
 .author-card .author-contact p i {
 	margin-right: 5px;
-	color: #30caa0;
+	color: #ed3237;
 }
 
 .contact-form-card {
@@ -1364,7 +1369,7 @@ ol {
 }
 
 .contact-form-card button {
-	background: #30caa0;
+	background: #ed3237;
 	color: #fff;
 	font-size: 14px;
 	font-weight: 600;
@@ -1409,7 +1414,7 @@ ol {
 }
 
 .rp-item .rp-info p i {
-	color: #30caa0;
+	color: #ed3237;
 	margin-right: 5px;
 }
 
@@ -1419,7 +1424,7 @@ ol {
 	font-weight: 600;
 	text-align: center;
 	padding: 9.5px;
-	background: #30caa0;
+	background: #ed3237;
 	color: #fff;
 }
 
@@ -1458,7 +1463,7 @@ ol {
 }
 
 .about-list li i {
-	color: #30caa0;
+	color: #ed3237;
 	margin-right: 5px;
 }
 
@@ -1492,11 +1497,11 @@ ol {
 	/* Old browsers */
 	/* FF3.6-15 */
 	/* Chrome10-25,Safari5.1-6 */
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(80%, #30caa0));
-	background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #30caa0 80%);
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #30caa0 80%);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(80%, #ed3237));
+	background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #ed3237 80%);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #ed3237 80%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#30caa0', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ed3237', GradientType=0);
 	/* IE6-9 */
 	opacity: 0;
 	-webkit-transition: all 0.5s;
@@ -1533,7 +1538,7 @@ ol {
 }
 
 .member-pic .member-social a:hover {
-	color: #30caa0;
+	color: #ed3237;
 }
 
 .member-info {
@@ -1574,7 +1579,7 @@ ol {
 }
 
 .member-info .member-contact p i {
-	color: #30caa0;
+	color: #ed3237;
 	margin-right: 10px;
 }
 
@@ -1642,7 +1647,7 @@ ol {
 	font-size: 22px;
 	font-weight: 600;
 	font-style: italic;
-	border-left: 5px solid #30caa0;
+	border-left: 5px solid #ed3237;
 	padding: 15px 25px;
 	margin-bottom: 30px;
 }
@@ -1660,7 +1665,7 @@ ol {
 }
 
 .blog-tags a {
-	color: #30caa0;
+	color: #ed3237;
 	margin-right: 5px;
 }
 
@@ -1755,8 +1760,8 @@ ol {
 }
 
 .comment-warp .comment .comment-content .c-btn:hover {
-	border-color: #30caa0;
-	background: #30caa0;
+	border-color: #ed3237;
+	background: #ed3237;
 	color: #fff;
 }
 
