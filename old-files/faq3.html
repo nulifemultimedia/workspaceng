@@ -24,10 +24,6 @@
 	<link rel="stylesheet" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
 	
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-   <link rel='stylesheet prefetch' href='https://files.krve.io/f/eyespot.css'><link rel='stylesheet prefetch' href='https://cdn.cloudcache.dk/materialdesignicons/1.6.50/css/materialdesignicons.min.css'>
-    <link rel="stylesheet" href="css/style.css">
-	
 
 
 	<!--[if lt IE 9]>
@@ -74,7 +70,7 @@
 							<a href=""><i class="fa fa-linkedin"></i></a>
 						</div>
 						<div class="user-panel">
-							<a href="register.html"><i class="fa fa-user-circle-o"></i> Register</a>
+							<a href="log-in.html"><i class="fa fa-user-circle-o"></i> Register</a>
 							<a href="log-in.html"><i class="fa fa-sign-in"></i> Login</a>
 						</div>
 					</div>
@@ -85,18 +81,18 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="site-navbar">
-						<a href="index.html" class="site-logo"><img src="img/workspace/WORKSPACENG_LOGO_WHITE.png" alt=""></a>
+						<a href="#" class="site-logo"><img src="img/workspace/WORKSPACENG_LOGO_WHITE.png" alt=""></a>
 						<div class="nav-switch">
 							<i class="fa fa-bars"></i>
 						</div>
 						<ul class="main-menu">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About Us</a></li>
-							<li><a href="listings.html">Get a Space</a></li>
-<!--							<li><a href="#">Book a Tour</a></li>-->
+							<li><a href="#">Get a Space</a></li>
+							<li><a href="#">Book a Tour</a></li>
 <!--							<li><a href="single-list.html">Pages</a></li>-->
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="faq.html">FAQs</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">FAQs</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div>
@@ -105,6 +101,7 @@
 		</div>
 	</header>
 	<!-- Header section end -->
+
 
 	<!-- Page top section -->
 	<section class="page-top-section set-bg" data-setbg="img/workspace/BG_FOOTER.jpg">
@@ -118,136 +115,133 @@
 	<div class="site-breadcrumb">
 		<div class="container">
 			<a href=""><i class="fa fa-home"></i>Home</a>
-			<span><i class="fa fa-angle-right"></i>FAQs</span>
+			<span><i class="fa fa-angle-right"></i>FAQS</span>
 		</div>
 	</div>
 
 	<!-- page -->
-	
-	
-	
-  <div class="container">
-  <div class="col-md-4">
-    <ul class="list-group help-group">
-      <div class="faq-list list-group nav nav-tabs">
-        <a href="#tab1" class="list-group-item active" role="tab" data-toggle="tab" style="background-color: #ED3237">Frequently Asked Questions</a>
-<!--
-        <a href="#tab2" class="list-group-item" role="tab" data-toggle="tab"><i class="mdi mdi-account"></i> My profile</a>
-        <a href="#tab3" class="list-group-item" role="tab" data-toggle="tab"><i class="mdi mdi-account-settings"></i> My account</a>
-        <a href="#tab4" class="list-group-item" role="tab" data-toggle="tab"><i class="mdi mdi-star"></i> My favorites</a>
-        <a href="#tab5" class="list-group-item" role="tab" data-toggle="tab"><i class="mdi mdi-cart"></i> Checkout</a>
-        <a href="#tab6" class="list-group-item" role="tab" data-toggle="tab"><i class="mdi mdi-heart"></i> Lorem ipsum</a>
-        <a href="#tab7" class="list-group-item" role="tab" data-toggle="tab"><i class="mdi mdi-check"></i> Dolor sit amet</a>
--->
-      </div>
-    </ul>
-  </div>
-  <div class="col-md-8">
-    <div class="tab-content panels-faq">
-      <div class="tab-pane active" id="tab1">
-        <div class="panel-group" id="help-accordion-1">
-          <div class="panel panel-default panel-help">
-            <a href="#opret-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
-              <div class="panel-heading">
-                <h5>I want to register as a vendor - what are the steps?</h5>
-              </div>
-            </a>
-            <div id="opret-produkt" class="collapse in">
-              <div class="panel-body">
-                <p>The steps involved in this process are really simple. All you need to do is:</p>
+	<div class="panel-group" id="accordion">
+        <div class="faqHeader">GENERAL QUESTIONS</div>
+        <div class="panel panel-default">
+            <div class="panel-heading"><br>
+                <h5 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Is account registration required?</a>
+                </h5>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    Account registration at <strong>Workspace.ng</strong> is required for vendors and customers. 
+                    This ensures a valid communication channel for all parties involved in any transactions. 
+                </div>
+            </div>
+        </div><br>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h5 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">Can I advertise my own workspace?</a>
+                </h5>
+            </div>
+            <div id="collapseTen" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Only vendors that have registered on our platform can access this priviledge. Kindly register as a vendor on our <strong>Signup</strong> page if you want to partner with us.
+                </div>
+            </div>
+        </div><br>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h5 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">What is the mode of payment for all transactions?</a>
+                </h5>
+            </div>
+            <div id="collapseEleven" class="panel-collapse collapse">
+                <div class="panel-body">
+                    All prices and mode of payment for different workspace categories can be found on our <strong>Get A Space</strong> page.
+                </div>
+            </div>
+        </div><br>
+
+        <div class="faqHeader">VENDORS</div>
+        <div class="panel panel-default">
+            <div class="panel-heading"><br>
+                <h5 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Who can advertise on your platform?</a>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Any registed real-estate agent or space owner, who has a workspace, which is genuine and conducive, can post it on <strong>Workspace.ng</strong>.
+                </div>
+            </div>
+        </div><br>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h5 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">I want to register as a vendor - what are the steps?</a>
+                </h5>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    The steps involved in this process are really simple. All you need to do is:
                     <ul>
                         <li>Register an account</li>
                         <li>Email us the details of your workspace</li>
                         <li>The next step is the approval step, which usually takes about 72 hours, before it can be uploaded on our platform.</li>
                     </ul>
-                  
-              </div>
+                </div>
             </div>
-          </div>
-          <div class="panel panel-default panel-help">
-            <a href="#rediger-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
-              <div class="panel-heading">
-                <h5>Why advertise here?</h5>
-              </div>
-            </a>
-            <div id="rediger-produkt" class="collapse">
-              <div class="panel-body">
-                <p>There are a number of reasons why you should join us:</p>
+        </div><br>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h5 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Why advertise here?</a>
+                </h5>
+            </div>
+            <div id="collapseSix" class="panel-collapse collapse">
+                <div class="panel-body">
+                    There are a number of reasons why you should join us:
                     <ul>
                         <li>A great 70% flat rate for your workspaces.</li>
                         <li>Fast response/approval times. Many sites take weeks to process your submission. And if it gets rejected, there is another iteration. We have eliminated this, and made the process very fast. It only takes up to 72 hours for a workspace to get reviewed.</li>
                         <li>We are an exclusive marketplace. This means that you have a great opportunity to connect with young entrepreneurs and start-ups on <strong>Workspace.ng</strong>, which can be difficult on other platforms, and thus increase your earning potential.</li>
                     </ul>
-              </div>
+                </div>
             </div>
-          </div>
-          <div class="panel panel-default panel-help">
-            <a href="#ret-pris" data-toggle="collapse" data-parent="#help-accordion-1">
-              <div class="panel-heading">
-                <h5>Can I book for a year?</h5>
-              </div>
-            </a>
-            <div id="ret-pris" class="collapse">
-              <div class="panel-body">
-                <p>Depending on your preferences, you can book for a workspace for one month, three months and one year etc. For conference halls, bookings are also available for one day up to a week.</p>
-              </div>
+        </div><br>
+        <div class="faqHeader">CUSTOMERS</div>
+        <div class="panel panel-default">
+            <div class="panel-heading"><br>
+                <h5 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">I need a workspace - what are the steps?</a>
+                </h5>
             </div>
-          </div>
-          <div class="panel panel-default panel-help">
-            <a href="#slet-produkt" data-toggle="collapse" data-parent="#help-accordion-1">
-              <div class="panel-heading">
-                <h5>I need a workspace - what are the steps?</h5>
-              </div>
-            </a>
-            <div id="slet-produkt" class="collapse">
-              <div class="panel-body">
-                <p>Getting a space on <strong>Workspace.ng</strong> is really simple. Each advertised workspace is tailored to your budget specification contains details such as location, videos and images.
+            <div id="collapseFour" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Getting a space on <strong>Workspace.ng</strong> is really simple. Each advertised workspace is tailored to your budget specification contains details such as location, videos and images.
                     Once you have selected a workspace, which is to your liking, you can quickly and securely pay via our payment options.
                     <br />
-                    Once the transaction is complete, you gain full access to the workspace. </p>
-              </div>
+                    Once the transaction is complete, you gain full access to the workspace. 
+                </div>
             </div>
-          </div>
-          <div class="panel panel-default panel-help">
-            <a href="#opret-kampagne" data-toggle="collapse" data-parent="#help-accordion-1">
-              <div class="panel-heading">
-                <h5>Who can advertise on your platform?</h5>
-              </div>
-            </a>
-            <div id="opret-kampagne" class="collapse">
-              <div class="panel-body">
-                <p>Any registed real-estate agent or space owner, who has a workspace, which is genuine and conducive, can post it on <strong>Workspace.ng</strong>.</p>
-              </div>
+        </div><br>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h5 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Can I book for a year?</a>
+                </h5>
             </div>
-          </div>
+            <div id="collapseSeven" class="panel-collapse collapse">
+                <div class="panel-body">
+                   Depending on your preferences, you can book for a workspace for one month, three months and one year etc. For conference halls, bookings are also available for one day up to a week.
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="tab-pane" id="tab2">
-        <div class="panel-group" id="help-accordion-2">      
-          <div class="panel panel-default panel-help">
-            <a href="#help-three" data-toggle="collapse" data-parent="#help-accordion-2">
-              <div class="panel-heading">
-                <h5>Lorem ipsum?</h5>
-              </div>
-            </a>
-            <div id="help-three" class="collapse in">
-              <div class="panel-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nesciunt ut officiis accusantium quisquam minima praesentium, beatae fugit illo nobis fugiat adipisci quia distinctio repellat culpa saepe, optio aperiam est!</p>
-                <p><strong>Example: </strong>Facere, id excepturi iusto aliquid beatae delectus nemo enim, ad saepe nam et.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>    
-  </div>
-</div>
+    </div><br>
+
+<!--page end-->
 
 
-	
-	
-	
-	
+						
+           
 	
 	
 	
@@ -348,7 +342,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
-	<script src="js/index.js"></script>
-
 </body>
 </html>

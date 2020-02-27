@@ -70,7 +70,7 @@
 							<a href=""><i class="fa fa-linkedin"></i></a>
 						</div>
 						<div class="user-panel">
-							<a href="signup.html"><i class="fa fa-user-circle-o"></i> Register</a>
+							<a href="register.html"><i class="fa fa-user-circle-o"></i> Register</a>
 							<a href="log-in.html"><i class="fa fa-sign-in"></i> Login</a>
 						</div>
 					</div>
@@ -92,7 +92,7 @@
 <!--							<li><a href="#">Book a Tour</a></li>-->
 <!--							<li><a href="single-list.html">Pages</a></li>-->
 							<li><a href="blog.html">Blog</a></li>
-							<li><a href="#">FAQs</a></li>
+							<li><a href="faq.html">FAQs</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</div>
@@ -125,7 +125,7 @@
 				<select>
 					<option value="Budget">Budget</option>
 				</select>
-				<button class="site-btn fs-submit">SEARCH</button>
+				<button class="site-btn fs-submit"><a href="listings.html" style="color: #fff">SEARCH</a></button>
 			</form>
 		</div>
 	</div>
@@ -190,23 +190,29 @@
 				</div>
 				<div class="col-md-6">
 					<div class="propertie-item set-bg" data-setbg="img/offices/venturespark.png">
-						<div class="propertie-info text-white">
-							<div class="info-warp">
-								<h5>VENTURES PARK</h5>
-								<p><i class="fa fa-map-marker" style="color:#ED3237"></i> Abuja, Nigeria</p>
-							</div>
-							<div class="price">N26250/month</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="propertie-item set-bg" data-setbg="img/offices/workstation.png">
-						<div class="propertie-info text-white">
+				    <div class="propertie-info text-white">
 							<div class="info-warp">
 								<h5>WORKSTATION</h5>
 								<p><i class="fa fa-map-marker" style="color:#ED3237"></i> Lagos, Nigeria</p>
 							</div>
-							<div class="price">N5,000/day</div>
+				        <div class="price">
+							<a href="workstation_listing.html">N5,000/day</a>
+							</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="propertie-item set-bg" data-setbg="img/offices/workstation.png">
+                    <div class="propertie-info text-white">
+							<div class="info-warp">
+								<h5>VENTURES PARK</h5>
+								<p><i class="fa fa-map-marker" style="color:#ED3237"></i> Abuja, Nigeria</p>
+							</div>
+				        <div class="price">
+							<a href="listings.html">N26,250/month</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -217,7 +223,9 @@
 								<h5>GCL HUB</h5>
 								<p><i class="fa fa-map-marker" style="color:#ED3237"></i> Lagos, Nigeria</p>
 							</div>
-							<div class="price">N2000/day</div>
+				        <div class="price">
+							<a href="listings.html">N2,000/day</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -372,8 +380,8 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-md-6 blog-item">
-					<img src="img/blog/1.jpg" alt="">
-					<h5><a href="single-blog.html">Rapid increase in Worlspace centers across Nigeria hits an all-time high</a></h5>
+					<img src="img/blog/Office-space.jpg" alt="">
+					<h5><a href="single-blog.html">Why office space in Lagos is more expensive than New York</a></h5>
 <!--
 					<div class="blog-meta">
 						<span><i class="fa fa-user"></i>Amanda Seyfried</span>
@@ -383,8 +391,8 @@
 -->
 				</div>
 				<div class="col-lg-4 col-md-6 blog-item">
-					<img src="img/blog/2.jpg" alt="">
-					<h5><a href="single-blog.html">Trending Housing Investments in Nigeria</a></h5>
+					<img src="img/blog/6.jpg" alt="">
+					<h5><a href="single-blog.html">For Africa, the dawn of flexible workspace has arrived</a></h5>
 <!--
 					<div class="blog-meta">
 						<span><i class="fa fa-user"></i>Amanda Seyfried</span>
@@ -394,8 +402,8 @@
 -->
 				</div>
 				<div class="col-lg-4 col-md-6 blog-item">
-					<img src="img/blog/3.jpg" alt="">
-					<h5><a href="single-blog.html">Latest Grant Opportunities for Enterpreneurs</a></h5>
+					<img src="img/blog/Prime-office-rent.jpeg" alt="">
+					<h5><a href="single-blog.html">Prime office rent drops as SMEs, tech start-ups drive growing demand for co-working spaces</a></h5>
 <!--
 					<div class="blog-meta">
 						<span><i class="fa fa-user"></i>Amanda Seyfried</span>
@@ -405,7 +413,10 @@
 -->
 				</div>
 			</div>
-			<a href="blog.html" class="site-btn" style="text-align:center; align-items: center">VIEW MORE</a>
+			<div style="text-align:center; vertical-align: center; margin-top: 40px">
+			    <a href="blog.html" class="site-btn">VIEW MORE</a>
+			</div>
+			
 		</div>
 	</section>
 	<!-- Blog section end -->

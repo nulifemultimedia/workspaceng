@@ -23,68 +23,13 @@
 	<link rel="stylesheet" href="css/animate.css"/>
 	<link rel="stylesheet" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
-	
+	<link rel="stylesheet" href="css/mystyle.css"/>
 
 
 	<!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-
-<style type="text/css">
-	.login-form {
-		width: 340px;
-    	margin: 30px auto;
-	}
-    .login-form form {
-    	margin-bottom: 15px;
-        background: #f7f7f7;
-        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-        padding: 30px;
-    }
-    .login-form h2 {
-        margin: 0 0 15px;
-    }
-    .login-form .hint-text {
-		color: #777;
-		padding-bottom: 15px;
-		text-align: center;
-    }
-    .form-control, .btn {
-        min-height: 38px;
-        border-radius: 2px;
-    }
-    .login-btn {        
-        font-size: 15px;
-        font-weight: bold;
-    }
-    .or-seperator {
-        margin: 20px 0 10px;
-        text-align: center;
-        border-top: 1px solid #ccc;
-    }
-    .or-seperator i {
-        padding: 0 10px;
-        background: #f7f7f7;
-        position: relative;
-        top: -11px;
-        z-index: 1;
-    }
-    .social-btn .btn {
-        margin: 10px 0;
-        font-size: 15px;
-        text-align: left; 
-        line-height: 24px;       
-    }
-	.social-btn .btn i {
-		float: left;
-		margin: 4px 15px  0 5px;
-        min-width: 15px;
-	}
-	.input-group-addon .fa{
-		font-size: 18px;
-	}
-</style>
 
 </head>
 <body>
@@ -101,7 +46,7 @@
 -->
   
   
-		<!-- Header section -->
+	<!-- Header section -->
 	<header class="header-section">
 		<div class="header-top">
 			<div class="container">
@@ -158,54 +103,107 @@
 	<!-- Header section end -->
 
 
+
 	<!-- Page top section -->
 	<section class="page-top-section set-bg" data-setbg="img/workspace/BG_FOOTER.jpg">
 		<div class="container text-white">
-			<h2>Login</h2>
+			<h2>Registration</h2>
 		</div>
 	</section>
 	<!--  Page top end -->
 
-	
 	<!-- page -->
-<!--SIGN IN STARTS HERE-->
-
-<div class="login-form">
-    <form action="/examples/actions/confirmation.php" method="post">
-        <h2 class="text-center">Sign in</h2>		
-        <div class="text-center social-btn">
-            <a href="#" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i> Sign in with <b>Facebook</b></a>
-            <a href="#" class="btn btn-info btn-block"><i class="fa fa-twitter"></i> Sign in with <b>Twitter</b></a>
-			<a href="#" class="btn btn-danger btn-block"><i class="fa fa-google"></i> Sign in with <b>Google</b></a>
-        </div>
-		<div class="or-seperator"><i>or</i></div>
-        <div class="form-group">
-        	<div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                <input type="text" class="form-control" name="username" placeholder="Username" required="required">
-            </div>
-        </div>
-		<div class="form-group">
-            <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                <input type="password" class="form-control" name="password" placeholder="Password" required="required">
-            </div>
-        </div>        
-        <div class="form-group">
-            <button type="submit" class="btn btn-success btn-block login-btn">Sign in</button>
-        </div>
-        <div class="clearfix">
-            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
-            <a href="#" class="pull-right text-success">Forgot Password?</a>
-        </div>  
-        
-    </form>
-    <div class="hint-text small">Don't have an account? <a href="register.html" class="text-success">Register Now!</a></div>
+	
+<h3 class="reg" style="margin: 20px">CHOOSE YOUR PREFERRED OPTION</h3>
+<div class="row" style="text-align: center; vertical-align: middle; margin: 40px">
+  <div class="col-md-6 col-md-6 set-bg" data-setbg="img/reg_bg_1.jpg" style="padding:100px" >
+	<div class="gallery-reg">
+	<div class="icon-reg"><i class="icofont-group"></i></div>
+    <h3 class="reg">BECOME A USER</h3>
+    <p class="reg-p">Get a conducive and affordable workspace for your business</p>
+    <a href="register_user.html" class="site-btn">SIGN UP NOW</a>
+  </div>
 </div>
+ <div class="col-md-6 col-md-6 set-bg" data-setbg="img/reg_bg_2.jpg" style="padding:100px">
+  <div class="gallery-reg">
+   <div class="icon-reg" style="color: #fff"><i class="icofont-building"></i></div>
+    <h3 class="reg" style="color: #fff">BECOME A VENDOR</h3>
+    <p class="reg-p" style="color: #fff">Register your workspace and and get booked regularly</p>
+     <a href="register_vendor.html" class="site-btn">SIGN UP NOW</a>
+     </div>
+  </div>
+</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<!--
+	<h3 class="reg" style="margin: 40px">CHOOSE YOUR PREFERRED OPTION</h3>
+<div class="cont">
+  <div class="form sign-in">
+   <div class="icon-reg"><i class="icofont-chair"></i></div>
+    <h3 class="reg">BECOME A MEMBER,</h3>
+    <p class="reg-p">Sign up and discover great amount of new opportunities!</p>
+    <label>
+      <span>Email</span>
+      <input type="email" />
+    </label>
+    <label>
+      <span>Password</span>
+      <input type="password" />
+    </label>
+    <p class="forgot-pass">Forgot password?</p>
+    <button type="button" class="submit">Sign In</button>
+    <button type="button" class="fb-btn">Connect with <span>facebook</span></button>
+  </div>
+  <div class="sub-cont">
+    <div class="img">
+      <div class="img__text m--up">
+        <h2>ARE YOU A VENDOR?</h2>
+        <p>Sign up and discover great amount of new opportunities!</p>
+      </div>
+      <div class="img__text m--in">
+        <h2>One of us?</h2>
+        <p>If you already has an account, just sign in. We've missed you!</p>
+      </div>
+      <div class="img__btn">
+        <span class="m--up">Sign Up</span>
+        <span class="m--in">Sign In</span>
+      </div>
+    </div>
+    <div class="form sign-up">
+      <h2>Time to feel like home,</h2>
+      <label>
+        <span>Name</span>
+        <input type="text" />
+      </label>
+      <label>
+        <span>Email</span>
+        <input type="email" />
+      </label>
+      <label>
+        <span>Password</span>
+        <input type="password" />
+      </label>
+      <button type="button" class="submit">Sign Up</button>
+      <button type="button" class="fb-btn">Join with <span>facebook</span></button>
+    </div>
+  </div>
+</div>
+-->
 
-<!--SIGN IN ENDS HERE-->
-		
-		
+	
+	
+	
+
+	
 
 
 		<!-- Footer section -->
@@ -296,5 +294,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/myjquery.js"></script>
 </body>
 </html>
